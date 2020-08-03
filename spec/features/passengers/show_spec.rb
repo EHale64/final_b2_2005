@@ -5,7 +5,8 @@ RSpec.describe "As a visitor, When I visit a passengers show page" do
     @airline1 = Airline.create(name: "Delta")
     @airline2 = Airline.create(name: "Frontier")
     @flight1 = @airline1.flights.create(number: 1727, date: "08/03/20", time: "3:30pm MT", departure_city: "Denver", arrival_city: "Reno")
-    @flight2 = @airline2.flights.create(number: 7172, date: "08/03/20", time: "4:55pm MT", departure_city: "Reno", arrival_city: "  LA")
+    @flight2 = @airline2.flights.create(number: 7172, date: "08/03/20", time: "4:55pm MT", departure_city: "Reno", arrival_city: "LA")
+    @flight3 = @airline2.flights.create(number: 7777, date: "08/07/20", time: "7:00am MT", departure_city: "LA", arrival_city: "Reno")
     @passenger1 = Passenger.create(name: "Jessica", age: 32)
     @passenger2 = Passenger.create(name: "Ronny", age: 17)
     @passenger3 = Passenger.create(name: "Quentin", age: 19)
@@ -43,5 +44,26 @@ RSpec.describe "As a visitor, When I visit a passengers show page" do
     end
 
     expect(current_path).to eq("/flights/#{@flight1.id}")
+  end
+
+  it "I can add a flight" do
+
+    visit "/passengers/#{@passenger1.id}"
+
+    expect(page).to have_link("Add flight")
+
+    click_link("Add flight")
+
+    expect(current_path).to eq("/passengers/#{@passenger1.id}/new_flight")
+
+    fill_in :flight_number, with: @flight3.number
+
+    click_button "Submit"
+
+    expect(current_path).to eq("/passengers/#{@passenger1.id}")
+
+    within ".flights" do
+      expect(page).to have_content(@flight3.number)
+    end
   end
 end
