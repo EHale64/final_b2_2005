@@ -207,12 +207,45 @@
           1,
           null,
           1,
+          1,
           null
         ]
       },
       "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/spec/features/passengers/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          0,
+          null,
           null
         ]
       },
@@ -304,7 +337,7 @@
           1,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -315,8 +348,14 @@
           1,
           null
         ]
+      },
+      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/passengers_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1596470794
+    "timestamp": 1596472195
   }
 }
