@@ -206,6 +206,7 @@
         "lines": [
           1,
           null,
+          1,
           null
         ]
       },
@@ -297,8 +298,25 @@
           1,
           null
         ]
+      },
+      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/flights_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1596469733
+    "timestamp": 1596470472
   }
 }
