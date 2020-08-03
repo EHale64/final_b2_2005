@@ -37,4 +37,11 @@ RSpec.describe "As a visitor, When I visit a flight's show page" do
         expect(page).to have_content(@passenger3.name)
         expect(page).to have_content(@passenger4.name)
     end
+
+    it "I can see the count of minors and the count of adults on a flight" do
+      visit "/flights/#{@flight.id}"
+
+      expect(page).to have_content("Adults: 2")
+      expect(page).to have_content("Minors: 2")
+    end
 end
