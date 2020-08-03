@@ -219,90 +219,6 @@
           null
         ]
       },
-      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/spec/features/passengers/show_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/spec/models/airline_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
       "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/models/airline.rb": {
         "lines": [
           1,
@@ -327,6 +243,37 @@
           2,
           2,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -336,6 +283,10 @@
           1,
           1,
           1,
+          null,
+          1,
+          0,
+          null,
           null
         ]
       },
@@ -374,58 +325,8 @@
           1,
           null
         ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/flights_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          5,
-          null,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/passengers_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          5,
-          null,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/final_b2_2005/app/controllers/passenger_flights_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1596476667
+    "timestamp": 1596477304
   }
 }
