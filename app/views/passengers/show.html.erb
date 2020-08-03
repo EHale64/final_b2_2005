@@ -1,1 +1,8 @@
 <h1><%= @passenger.name %>'s profile</h1>
+
+
+<section class="flights">
+  <% @passenger.flights.each do |flight|%>
+    <%= flight.number %>
+  <% end %>
+</section>

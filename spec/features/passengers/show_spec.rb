@@ -14,9 +14,9 @@ RSpec.describe "As a visitor, When I visit a passengers show page" do
     PassengerFlight.create(passenger_id: @passenger2.id, flight_id: @flight1.id)
     PassengerFlight.create(passenger_id: @passenger3.id, flight_id: @flight1.id)
     PassengerFlight.create(passenger_id: @passenger4.id, flight_id: @flight1.id)
-    PassengerFlight.create(passenger_id: @passenger4.id, flight_id: @flight2.id)
-    PassengerFlight.create(passenger_id: @passenger4.id, flight_id: @flight2.id)
-    PassengerFlight.create(passenger_id: @passenger4.id, flight_id: @flight2.id)
+    PassengerFlight.create(passenger_id: @passenger1.id, flight_id: @flight2.id)
+    PassengerFlight.create(passenger_id: @passenger2.id, flight_id: @flight2.id)
+    PassengerFlight.create(passenger_id: @passenger3.id, flight_id: @flight2.id)
     PassengerFlight.create(passenger_id: @passenger4.id, flight_id: @flight2.id)
   end
 
@@ -31,6 +31,7 @@ RSpec.describe "As a visitor, When I visit a passengers show page" do
 
     within ".flights" do
       expect(page).to have_content(@flight1.number)
+      expect(page).to have_content(@flight2.number)
     end
   end
 end
