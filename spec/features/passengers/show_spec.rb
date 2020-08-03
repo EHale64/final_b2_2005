@@ -34,4 +34,14 @@ RSpec.describe "As a visitor, When I visit a passengers show page" do
       expect(page).to have_content(@flight2.number)
     end
   end
+
+  it "All flight numbers are links to that flight’s show page" do
+    visit "/passengers/#{@passenger1.id}"
+
+    within ".flights" do
+      click_link(@flight1.number)
+    end
+
+    expect(current_path).to eq("/flights/#{@flight1.id}")
+  end
 end
